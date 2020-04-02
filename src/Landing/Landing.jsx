@@ -21,22 +21,6 @@ class Landing extends Component {
   render() {
     return (
       <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">XPLRMVMNT</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#features">SHOP</Nav.Link>
-              <Nav.Link href="#pricing">ABOUT</Nav.Link>
-              <Nav.Link href="#pricing">CONTACT</Nav.Link>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#deets">
-                <FaShoppingCart />
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
         <div className="body">
           <Container className="d-flex justify-content-center">
             <Image src={logo} alt="logo" fluid />
@@ -130,11 +114,6 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="footerr">
-            <div>© 2020 EXPLRMVMNT</div>
-            <div>POWERED BY MAXOSCHEME</div>
           </div>
         </div>
       </>
