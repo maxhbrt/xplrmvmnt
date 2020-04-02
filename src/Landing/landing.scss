@@ -1,0 +1,268 @@
+.whole-container{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.body{
+
+  background-color:black;
+ height: fit-content;
+  width: 100vw;
+}
+.footerr{
+  padding:5px;
+  font-size: 10px;
+  color:rgb(145, 145, 145);
+  position: relative; bottom: 0;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+
+  background-color: black;
+}
+.header{
+  width: 100vw;
+}
+
+.react-icons{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  width: 250px ;
+  color:rgb(103, 186, 213);
+}
+.navbar-toggler{
+ border: none;
+}
+
+.shop-now{
+  // margin-bottom: 30px;
+  padding: 10px;
+  background-color: black;
+  font-family: 'Maven Pro', sans-serif;
+margin-top: 12px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+color: rgb(254, 254, 254);
+height: 14vh;
+width: 100%;
+
+
+}
+.shopnow-button{
+  font-size: 12px;
+  transition: all .2s ease-in-out; 
+  border-width:5px ;
+  border-style: solid;
+  border-radius: 2px;
+  padding:7px;
+  background-color: black;
+  color: white;
+  border-color: rgb(103, 186, 213);
+}
+
+.shopnow-button:hover{
+  transform: scale(1.1);
+background-color: white;
+  color:rgb(103, 186, 213);
+}
+.justify-content-center{
+  position: relative;
+  // text-align: center;
+}
+h1{
+  
+  font-size: 20px;
+}
+.bg-dark{
+  background-color: black !important;
+}
+.nav-link{
+  font-family: 'Maven Pro', sans-serif !important;
+  color: rgb(94, 94, 94) !important;
+  font-size: 12px !important;
+}
+.youtube{
+  
+  transition: all .2s ease-in-out; 
+  width: 30vw;
+  height: auto;
+}
+h3{
+  font-family: 'Karla', sans-serif;
+  
+
+  color: whitesmoke;
+}
+.youtube-container{
+
+  padding:20px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+background-color: black;
+}
+
+.navbar{
+  padding: 30px !important;
+}
+.youtube-header{
+ 
+  width: 100%;
+
+}
+.brand-heading{
+  font-size: 12px;
+  font-family: 'Maven Pro', sans-serif;
+  color: lightslategray;
+}
+h2{
+  font-family: 'Teko', sans-serif;
+  // margin-bottom: 20px;
+}
+h3{
+  font-family: 'Bebas Neue', cursive;
+}
+.youtube:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+
+}
+.navbark-brand{
+  color:rgb(103, 186, 213) !important;
+}
+
+.connect-outer-container{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 60vw;
+  width: 100vw;
+
+}
+
+.connect-container{
+  border-radius: 2px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 90%;
+  width: 90%;
+ max-width: 1000px;
+  background:  linear-gradient(rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.742)),  url('./trippy_logo.JPG');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.connect-with-us{
+  font-size: 12px;
+  color: white;
+height: 20%;
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.collage-info{
+
+  height: 8vh;
+  font-size: 12px;
+  color: rgb(133, 133, 133);
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: stretch;
+  margin-bottom: 10px;
+}
+.moreinfo-button{
+  font-size: 12px;
+  transition: all .2s ease-in-out; 
+  border-width:2px ;
+  border-style: solid;
+  border-radius: 2px;
+  padding:2px;
+  background-color: black;
+  color: white;
+  border-color: rgb(103, 186, 213);
+}
+.collage-info-hoodies{
+  
+  height: 4vh;
+  font-size: 12px;
+  color: rgb(103, 186, 213);
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.aboutus-container{
+  color:whitesmoke;
+  border-radius: 2px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 90%;
+  width: 92%;
+ max-width: 1000px;
+  background:  linear-gradient(rgba(0, 0, 0, 0.338), rgba(0, 0, 0, 0.338)),  url('./about-us.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.aboutus-outer-container{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  height: 60vw;
+  width: 100vw;
+
+}
+.findout-button{
+  font-size: 9px;
+  transition: all .2s ease-in-out; 
+  border-width:2px ;
+  border-style: solid;
+  border-radius: 2px;
+  padding:4px;
+  background-color: rgba(128, 128, 128, 0.235);
+  color: white;
+  //border-color: rgb(103, 186, 213);
+}
