@@ -4,7 +4,7 @@ import "./App.css";
 import routes from "./routes";
 import "./App.css";
 import { CartContext } from "./Context/CartContext";
-
+import Badge from "@material-ui/core/Badge";
 import { Container, Image, Navbar, Nav, Col, Row } from "react-bootstrap";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -13,18 +13,19 @@ function App() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Link to="/">XPLRMVMNT</Link>
-        <h1>{cart.length}</h1>
+        <Link className="xplrmvmnt" to="/">XPLRMVMNT</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Link to="/shop">SHOP</Link>
-            <Link href="#pricing">ABOUT</Link>
-            <Link href="#pricing">CONTACT</Link>
+            <Link className="nav-link" to="/shop">SHOP</Link>
+            <Link className="nav-link" href="#pricing">ABOUT</Link>
+            <Link className="nav-link" href="#pricing">CONTACT</Link>
           </Nav>
           <Nav>
             <Link href="#deets">
-              <FaShoppingCart />
+              <Badge badgeContent={cart.length} color="secondary">
+                <FaShoppingCart size={25} />
+              </Badge>
             </Link>
           </Nav>
         </Navbar.Collapse>

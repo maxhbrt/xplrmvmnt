@@ -7,8 +7,8 @@ import shirtCollage from "./shirt-collage.jpg";
 import hoodieCollage from "./hoodie-collage.jpg";
 import logo from "./finalfinal.jpg";
 import { Container, Image, Navbar, Nav, Col, Row } from "react-bootstrap";
-import { FaShoppingCart } from "react-icons/fa";
-import InstagramEmbed from "react-instagram-embed";
+
+import { Link } from "react-router-dom";
 
 class Landing extends Component {
   constructor(props) {
@@ -29,7 +29,9 @@ class Landing extends Component {
           <div className="shop-now">
             <h1 className="brand-heading">XPLRMVMNT 2020</h1>
             <h2>Hoodies</h2>
+<Link to={'/shop'}>
             <button className="shopnow-button">SHOP NOW</button>
+            </Link>
           </div>
 
           <div className="youtube-container">
