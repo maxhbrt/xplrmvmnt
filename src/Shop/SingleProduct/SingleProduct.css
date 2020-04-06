@@ -29,3 +29,11 @@
 	align-content: stretch;
 	width: 50vw;
 }
+.single-shop-title
+{
+	color: gray;
+}
+.add-to-cart{
+	color: white;
+	background-color: rgb(203, 203, 203);
+}

@@ -1,11 +1,7 @@
-import React, {useContext} from 'react';
-import {CartContext} from './CartContext';
+import React, {useContext} from "react";
 
-const Cart = (props) => {
-const [cart, setCart] = useContext(CartContext);
-return(
-<div>{cart.length}</div>
-)
+function Cart(){
+const [cart] = useContext();
 }
 
-export default Cart;
+export default Cart
